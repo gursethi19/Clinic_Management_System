@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+  background-color:rgb(183, 243, 213);
+}
+
+.DoctorCard {
+  background-color: antiquewhite;  
+}
+.Login {
+  background-image:url("C:\Users\hp\Desktop\firstapp\src\pic7.jpg");
+  background-repeat: no-repeat;
+  background-size:1600px 800px;
+}
+
+.footer {
+  background-color: #38f5b6;
+}
+.contactus {
+  background: palegreen;
+}
+
+.h11 {
+  font-size: 100px;
+  font-weight: 700;
+  /* font-family:fantasy; */
+  text-align: left;
+  padding-left: 50px;
+  color: #02010188;
+}
+
+.FooterCard {
+  background-color: white;
+  text-align: center;
+  /* border: crimson 3px solid; */
+  margin: 10px;
+}
+
+.thumbnail{        
+  width: 260px; 
+  height: 350px;
+}
+.p {
+  font-weight: 600;
+}
+
+.LoginCard {
+  background-color: rgb(231, 249, 252);
+}
+
+.homeclass {
+  background-color: burlywood;
+}
+
+
+.jumbotron {
+  background-image: url("C:\Users\hp\Desktop\firstapp\src\pic8.jpg");
+  background-attachment: fixed;
+  background-size: 1600px 800px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
